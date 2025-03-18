@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from config import SUPPORT_GROUP
+from config import SUPPORT_GROUP, OWNER_ID 
 from ANNIEMUSIC import app
 
 
@@ -70,8 +70,8 @@ def music_start_panel(_):
             InlineKeyboardButton(text="✨ Help ✨", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="❄ Owner ❄", callback_data="developer"),
-            InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/kittyxupdates"),
+            InlineKeyboardButton(text="❄ Owner ❄", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/THESECRETCLUBHOUSE"),
         ],
     ]
     return buttons
