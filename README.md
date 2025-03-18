@@ -10,7 +10,7 @@ If you’re using or forking this project, please ⭐ star the original repo: [A
 
 Deploy **Annie Music Bot** on Heroku easily:
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/moonshining1/Annie-Music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/CHALCOGEN645/Annie-Music"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
 
 ---
 ## 🖇️ VPS Deployment Guide
